@@ -1,0 +1,13 @@
+<Project>
+  <Import Project="version.props" />
+  <PropertyGroup>
+    <Product>MicroElements.Design.Annotations</Product>
+    <Copyright>2018</Copyright>
+    <Authors>micro-elements</Authors>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageProjectUrl>https://github.com/micro-elements/MicroElements.Design.Annotations</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/micro-elements/MicroElements.Design.Annotations/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/micro-elements/MicroElements.Design.Annotations</RepositoryUrl>
+  </PropertyGroup>
+</Project>

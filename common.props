@@ -4,10 +4,13 @@
     <Product>MicroElements.Design.Annotations</Product>
     <Copyright>2018</Copyright>
     <Authors>micro-elements</Authors>
-    <PackageIconUrl></PackageIconUrl>
+    <Description>Design annotations for DDD, CQRS and other architectural methodologies.</Description>
+
+    <PackageTags>Annotations DDD CQRS Design</PackageTags>
     <PackageProjectUrl>https://github.com/micro-elements/MicroElements.Design.Annotations</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/micro-elements/MicroElements.Design.Annotations/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/micro-elements/MicroElements.Design.Annotations</RepositoryUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/micro-elements/MicroElements/master/image/logo_rounded.png</PackageIconUrl>
   </PropertyGroup>
 </Project>

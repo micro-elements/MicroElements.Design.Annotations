@@ -1,5 +1,5 @@
 # MicroElements.Design.Annotations
-{Subject}
+Design annotations for DDD, CQRS and other architectural methodologies.
 
 ## Statuses
 [![License](https://img.shields.io/github/license/micro-elements/MicroElements.Design.Annotations.svg)](https://raw.githubusercontent.com/micro-elements/MicroElements.Design.Annotations/master/LICENSE)

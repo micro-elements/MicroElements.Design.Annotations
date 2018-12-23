@@ -5,11 +5,19 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{395400CD-365F-4D4E-A350-E4596199A5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroElements.Design.Annotations", "src\MicroElements.Design.Annotations\MicroElements.Design.Annotations.csproj", "{ABAF92AE-5129-4D79-885E-9129DFDEA35F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroElements.Design.Annotations", "src\MicroElements.Design.Annotations\MicroElements.Design.Annotations.csproj", "{ABAF92AE-5129-4D79-885E-9129DFDEA35F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{622A7307-081E-4647-9C35-255F7249E4C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroElements.Design.Annotations.Tests", "test\MicroElements.Design.Annotations.Tests\MicroElements.Design.Annotations.Tests.csproj", "{96B03979-B9F6-4DC4-B8BD-E0B46F4078F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroElements.Design.Annotations.Tests", "test\MicroElements.Design.Annotations.Tests\MicroElements.Design.Annotations.Tests.csproj", "{96B03979-B9F6-4DC4-B8BD-E0B46F4078F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F47E7C2-AC87-4E8B-8660-2875C8D5B5B1}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		common.props = common.props
+		README.md = README.md
+		version.props = version.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ABAF92AE-5129-4D79-885E-9129DFDEA35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,8 +54,14 @@ Global
 		{96B03979-B9F6-4DC4-B8BD-E0B46F4078F7}.Release|x86.ActiveCfg = Release|Any CPU
 		{96B03979-B9F6-4DC4-B8BD-E0B46F4078F7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{ABAF92AE-5129-4D79-885E-9129DFDEA35F} = {395400CD-365F-4D4E-A350-E4596199A5B2}
 		{96B03979-B9F6-4DC4-B8BD-E0B46F4078F7} = {622A7307-081E-4647-9C35-255F7249E4C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6833688-E3F7-45DA-B171-0C04387E767E}
 	EndGlobalSection
 EndGlobal
